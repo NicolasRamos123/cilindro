@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Estilizar itens</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+
+	<h2 class="atencao">Atenção, confira se está em "cm" ou "m"</h2>
+  	<section class="cards">
+		  <div class="card">
+			<div class="tools">
+				<div class="circle">
+					<span class="red box"></span>
+			  	</div>
+			  	<div class="circle">
+					<span class="yellow box"></span>
+			  	</div>
+			  	<div class="circle">
+					<span class="green box"></span>
+			  	</div>
+			</div>
+			<div class="card__content__descriptions">
+				<form class="form">
+					<label for="first-number">Digite o raio</label><br>
+					<input type="text" class="input-raio-number" id="first-number" name="first-number" placeholder="Raio aqui"><br>
+
+					<label for="second-number">Digite a altura</label><br>
+					<input type="text" class="input-altura-number" id="second-number" name="second-number" placeholder="Altura aqui">
+
+					<input type="submit" value="Calcular cilindro" class="button">
+				</form>
+				<p class="Ab"></p>
+				<p class="Al"></p>
+				<p class="At"></p>
+				<p class="Vl"></p>
+			</div>
+		  </div>
+  	</section>
+
+	<script src="Javascript/Javascript.js"></script>
+  </body>
+</html>
